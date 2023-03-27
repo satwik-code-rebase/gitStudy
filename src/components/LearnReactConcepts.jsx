@@ -13,7 +13,7 @@ export default function LearnReactConcept() {
     }
     return (
         <div>
-            <label>Your message</label>
+            <label>Your message is here</label>
             <input type="text" onChange={checkValid}/>
             <p>{message}</p>
         </div>
